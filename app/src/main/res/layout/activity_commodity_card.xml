@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.CommodityCardActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="74dp"
+        android:layout_height="88dp"
+        android:layout_margin="15dp"
+        android:background="@color/xhsTheme_colorGrayLevel6">
+
+        <View
+            android:id="@+id/image"
+            android:layout_width="62dp"
+            android:layout_height="62dp"
+            android:layout_marginTop="6dp"
+            android:background="@color/xhsTheme_colorGrayLevel3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/top_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:maxLines="1"
+            android:paddingBottom="1dp"
+            android:textColor="@color/xhsTheme_colorGray1000"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/image"
+            tools:text="njcndjknjcnd" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

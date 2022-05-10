@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/shopGuideLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/guideContent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shop_tab_cart_guide_white"
+        android:drawablePadding="4dp"
+        android:gravity="center_vertical"
+        android:paddingStart="4dp"
+        android:paddingTop="4dp"
+        android:paddingEnd="8dp"
+        android:paddingBottom="4dp"
+        android:textColor="@color/xhsTheme_always_colorBlack1000"
+        android:textSize="12sp"
+        tools:text="查看购物车"
+        />
+
+    <View
+        android:id="@+id/guideTriangle"
+        android:layout_width="10dp"
+        android:layout_height="4dp"
+        android:translationY="-1.5dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/arrow"
+        />
+
+</LinearLayout>
